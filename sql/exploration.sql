@@ -307,7 +307,7 @@ LIMIT 10;
 
 -- Findings:
 -- Netherlands ranked first: GBP 283,889.34.
--- Ireland (labelled EIRE) ranked second: GBP 276,090.36.
+-- Ireland (labelled EIRE) ranked second: GBP 276,090.86.
 -- Germany ranked third: GBP 205,381.15.
 -- Values represent positive sales before returns,
 -- using unique records across the full available period.
