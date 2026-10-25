@@ -8,7 +8,7 @@ The analysis answers three questions: which products generated the most sales va
 
 - **REGENCY CAKESTAND 3 TIER (22423)** ranked first among product codes under the documented filters, with **£174,156.54** in positive sales before returns.
 - **November 2011** was the highest of the 12 complete months analysed, at **£1,453,295.98**; February was lowest at **£508,081.54**. Sales increased each month from August through November. The data does not establish why.
-- **Netherlands (£283,889.34)**, **Ireland (£276,090.36)** and **Germany (£205,381.15)** were the leading markets outside the UK over the full available period.
+- **Netherlands (£283,889.34)**, **Ireland (£276,090.86)** and **Germany (£205,381.15)** were the leading markets outside the UK over the full available period.
 - Keeping one copy of identical records lowered filtered sales value by **£24,213.74 (about 0.235%)**. This is a sensitivity check, not proof that the repeated entries were erroneous.
 
 ## Monthly sales
@@ -112,3 +112,7 @@ Useful follow-up: review stock availability for the leading products before the 
 Chen, D. (2015). *Online Retail* [Dataset]. UCI Machine Learning Repository. [DOI: 10.24432/C5BW33](https://doi.org/10.24432/C5BW33). Dataset licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). This project transforms and summarises the dataset; charts and labels reflect the documented decisions above.
 
 Built as a guided learning project with AI assistance for explanations, code and documentation. SQL exploration and Excel charts were developed step by step; final outputs were rerun against the local database and reconciled to the exported results.
+
+## Learning scope
+
+This is a beginner, AI-assisted project. The final queries include CTEs and a window function (`ROW_NUMBER`) added with assistance to organise filtering and select product labels. Their inclusion demonstrates the implementation used here, not independent proficiency. Explaining and reproducing these techniques without assistance remains a learning goal.
